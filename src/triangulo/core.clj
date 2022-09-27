@@ -70,6 +70,8 @@
     (and (< (math/round (calc-angulo a b c)) 90) (< (math/round (calc-angulo b c a)) 90) (< (math/round (calc-angulo c a b)) 90))
     false))
 
+;; Bla
+
 (defn gerar-dados-completos
   [a b c]
   (let [area (calc-area a b c)]
